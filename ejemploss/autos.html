@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>  <h1>  AUTO FERNI  </h1> </title>
+  <link rel="stylesheet" href="estil.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1> AUTO FERNI </h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="pagina1.html">Toyota</a></li>
+      <li><a href="pagina2.html">Kia</a></li>
+      <li><a href="pagina3.html">Chery</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <div class="search-container">
+      <input type="text" id="searchInput" onkeyup="buscar()" placeholder="Buscar en los autos...">
+      <i class="fas fa-search search-icon"></i>
+    </div>
+    
+   </main>    
+   
+  </div>
+ 
+  <div class="container">
+    <img src="https://autolasa.com.ec/uploads/images/787x530home-656fa7d503d85213022640.jpg" alt="Descripción de la imagen" width="850" height="600">
+    <form id="formulario">
+      <img src="https://www.grupopaola.com/wp-content/uploads/2021/10/Boton_01.gif" alt="Descripción de la imagen" width="300" height="90">
+       <label for="nombre">Nombre:</label>
+       <input type="text" id="nombre" name="nombre" required>
+     
+       <label for="apellido">Apellido:</label>
+       <input type="text" id="apellido" name="apellido" required>
+     
+       <label for="telefono">Número de teléfono:</label>
+       <input type="tel" id="telefono" name="telefono" maxlength="10" pattern="[0-9]+" required>
+     
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+     
+       <label for="marca">:elige una marca</label>
+       <select id="marca" name="marca" required>
+         <option value="masda">Mazda</option>
+         <option value="kia">Kia</option>
+         <option value="cherry">Chery</option>
+       </select>
+     
+       <label for="plazo">Plazo:</label>
+       <select id="plazo" name="plazo" required>
+         <option value="12meses">12 meses</option>
+         <option value="18meses">18 meses</option>
+         <option value="25meses">25 meses</option>
+       </select>
+     
+       <input type="submit" value="Enviar" id="enviar">
+    </form>
+   </div>
+   <style>
+    hr {
+        border: none;
+        height: 2px;
+        background-color: black;
+        margin: 20px 0; /* Ajusta según sea necesario */
+    }
+</style>
+   <hr>
+
+   <div class="section">
+    <h1>Tu concesionario multiautos favorito "AUTO FERNI"</h1>
+    <p>Somos un concesionario de autos multimarcas con más de 35 años de experiencia. 
+        Te ofrecemos las mejores marcas con garantía hasta de 5 años o 150,000 kilómetros.
+        Contamos con planes de financiamiento a tu alcance y personal altamente capacitado 
+        para darte una verdadera experiencia.</p>
+</div>
+
+  <footer>
+    
+  <p>Derechos de autor &copy; 2023 . Todos los derechos reservados.</p>
+  </footer>
+  <script src="auto.js"></script>
+</body>
+</html>
